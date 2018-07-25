@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: misp\n"
-"PO-Revision-Date: 2018-07-25 09:32\n"
+"PO-Revision-Date: 2018-07-25 10:26\n"
 "Last-Translator: ater49 <contact@at49.info>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -4675,7 +4675,7 @@ msgstr "Supprimer les attributs orphelins"
 #: View/Elements/healthElements/diagnostics.ctp:343;345
 #: View/Pages/administration.ctp:17
 msgid "Verify GnuPG keys"
-msgstr ""
+msgstr "Vérifier la clé GnuPG"
 
 #: View/Elements/healthElements/diagnostics.ctp:344
 msgid "Run a full validation of all GnuPG keys within this instance's userbase. The script will try to identify possible issues with each key and report back on the results."
@@ -12846,7 +12846,7 @@ msgstr ""
 
 #: Model/Attribute.php:validation for field value
 msgid "A similar attribute already exists for this event."
-msgstr ""
+msgstr "Un attribut similaire est déjà existant pour cet événement."
 
 #: Model/Attribute.php:validation for field value
 msgid "Composite type found but the value not in the composite (value1|value2) format."
@@ -12862,7 +12862,7 @@ msgstr ""
 #: Model/ShadowAttribute.php:validation for field to_ids;validation for field proposal_to_delete
 #: Model/User.php:validation for field autoalert;validation for field contactalert;validation for field change_pw;validation for field termsaccepted
 msgid "boolean"
-msgstr ""
+msgstr "booléen"
 
 #: Model/Attribute.php:validation for field uuid
 #: Model/Event.php:validation for field uuid;validation for field extends_uuid
@@ -12872,15 +12872,15 @@ msgstr ""
 #: Model/ShadowAttribute.php:validation for field uuid
 #: Model/SharingGroup.php:validation for field uuid
 msgid "Please provide a valid UUID"
-msgstr ""
+msgstr "Merci d'entrer un UUID valide"
 
 #: Model/Attribute.php:validation for field uuid
 msgid "The UUID provided is not unique"
-msgstr ""
+msgstr "L'UUID indiqué n'est pas unique"
 
 #: Model/Attribute.php:validation for field distribution
 msgid "Options: Your organisation only, This community only, Connected communities, All communities, Sharing group, Inherit event"
-msgstr ""
+msgstr "Options: Votre organisation seulement, Cette communauté seulement, Communautés connectés, Toutes les communautés, Groupe de partage, Hérité de l'événement"
 
 #: Model/AttributeTag.php:validation for field attribute_id;validation for field tag_id
 #: Model/Event.php:validation for field org_id;validation for field orgc_id;validation for field info
@@ -12924,7 +12924,7 @@ msgstr ""
 
 #: Model/EventBlacklist.php:validation for field event_uuid
 msgid "Event already blacklisted."
-msgstr ""
+msgstr "Evenement déjà mis en liste noire"
 
 #: Model/EventGraph.php:validation for field network_json
 msgid "The provided eventGraph is not a valid json format"
@@ -12942,7 +12942,7 @@ msgstr ""
 #: Model/WarninglistEntry.php:validation for field value
 #: Model/WarninglistType.php:validation for field type
 msgid "rule"
-msgstr ""
+msgstr "règle"
 
 #: Model/Feed.php:validation for field event_id
 msgid "Please enter a numeric event ID or leave this field blank."
@@ -12954,40 +12954,40 @@ msgstr ""
 
 #: Model/ObjectRelationship.php:validation for field name
 msgid "A relationship with this name already exists."
-msgstr ""
+msgstr "Une relation avec ce nom est déjà existante"
 
 #: Model/OrgBlacklist.php:validation for field org_uuid
 msgid "Organisation already blacklisted."
-msgstr ""
+msgstr "Organisation déjà en liste noire."
 
 #: Model/Organisation.php:validation for field name
 msgid "An organisation with this name already exists."
-msgstr ""
+msgstr "Une organisation avec ce nom est déjà existante."
 
 #: Model/Organisation.php:validation for field uuid
 msgid "An organisation with this UUID already exists."
-msgstr ""
+msgstr "Une organisation avec le même UUID est déjà existante."
 
 #: Model/Regexp.php:validation for field regexp
 msgid "This is not a valid regular expression. Don't forget the delimiters!"
-msgstr ""
+msgstr "Cette expression régulière n'est pas valide. Ne pas oublier les délimiteurs!"
 
 #: Model/Role.php:validation for field name
 msgid "A role with this name already exists."
-msgstr ""
+msgstr "Un rôle avec ce nom est déjà existant."
 
 #: Model/Server.php:validation for field url
 msgid "Please enter a valid base-url."
-msgstr ""
+msgstr "Merci d'entrer une URL de base valide."
 
 #: Model/Server.php:validation for field authkey
 #: Model/User.php:validation for field authkey
 msgid "A authkey of a minimum length of 40 is required."
-msgstr ""
+msgstr "Une clé d'authentification doit avoir un minimum de 40 caractères"
 
 #: Model/SharingGroup.php:validation for field name
 msgid "A sharing group with this name already exists."
-msgstr ""
+msgstr "Un groupe de partage avec ce nom est déjà existant."
 
 #: Model/Sighting.php:validation for field type
 msgid "Invalid type. Valid options are: 0 (Sighting), 1 (False-positive), 2 (Expiration)."
@@ -13000,7 +13000,7 @@ msgstr "Ce champ est requis."
 #: Model/Tag.php:validation for field name
 #: Model/Whitelist.php:validation for field name
 msgid "A similar name already exists."
-msgstr ""
+msgstr "Un nom similaire est déjà existant"
 
 #: Model/Tag.php:validation for field colour
 msgid "Colour has to be in the RGB format (#FFFFFF)"
